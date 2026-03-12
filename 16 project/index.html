@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtual Zoopark</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="main-header">
+        <h1>Xush kelibsiz, <span>Virtual Zooparkga!</span></h1>
+    </header>
+
+    <section class="intro">
+        <p>Bu yerda siz turli <strong>hayvonlar</strong> haqida qiziqarli ma'lumotlar topishingiz mumkin.</p>
+        <h3>Bizning hayvonlar</h3>
+        <ul>
+            <li><strong>Arslonlar</strong> - o'rmon qirollari</li>
+            <li><strong>Fillar</strong> - yer yuzidagi eng katta quruqlik hayvonlari</li>
+        </ul>
+    </section>
+
+    <section class="section-title">
+        <h2>Hayvonlar haqida qiziqarli faktlar</h2>
+    </section>
+
+    <section class="image-gallery">
+        <img width="300" height="250" src="./Без названия (10).jpg" alt="Arslonlar daraxtda">
+        <img width="300" height="250" src="./Без названия (9).jpg" alt="Arslon dam olmoqda">
+    </section>
+
+    <section class="section-title">
+        <h2>Hayvonlarni ko'rish</h2>
+    </section>
+
+    <section class="video-container">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/0oT3ktTFlNg?si=ZlyZv9yxnXGTSxXU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </section>
+
+    <section class="feedback-form">
+        <form action="#">
+            <h3>O'z fikringizni yozib qoldiring</h3>
+            <textarea rows="4"></textarea>
+            
+            <h3>Sevimli hayvongiz qaysi</h3>
+            <div class="radio-group">
+                <input type="radio" id="arslon" name="animal" value="arslon">
+                <label for="arslon">Arslon</label><br>
+                <input type="radio" id="fil" name="animal" value="fil">
+                <label for="fil">Fil</label>
+            </div>
+            
+            <button type="submit" class="send-btn">Jo'natish</button>
+        </form>
+    </section>
+
+    <section class="section-title">
+        <h2>Hayvonlar haqida to'liq ma'lumotlar jadvali</h2>
+    </section>
+
+    <table class="info-table">
+        <thead>
+            <tr>
+                <th class="head-animal">Hayvon</th>
+                <th class="head-fact">Qiziqarli fakt</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="cell-red">Arslon</td>
+                <td class="cell-black">Arslonlar kunning 20 soatini uyqu bilan o'tkazishadi</td>
+            </tr>
+            <tr>
+                <td class="cell-red">Fil</td>
+                <td class="cell-black">Fillar suvni o'zlarini burni bilan ichishadi</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
